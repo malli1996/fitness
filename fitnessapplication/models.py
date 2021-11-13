@@ -5,6 +5,7 @@ from django.db import models
 class Employee(models.Model):
     ename = models.CharField(max_length=20)
     eadd = models.CharField(max_length=200)
+    esal = models.IntegerField()
     
 
 
